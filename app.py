@@ -40,9 +40,8 @@ class Student:
         """
         return f"{self.student_id} | {self.name} | {self.get_attendance_percentage():.2f}%"
 
-# -----------------------------
 # Attendance Manager Class
-# -----------------------------
+
 
 class AttendanceManager:
     """
